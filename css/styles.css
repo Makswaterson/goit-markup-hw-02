@@ -45,7 +45,7 @@ body {
 .header-contact-mail {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
   cursor: pointer;
@@ -147,15 +147,14 @@ body {
   color: var(--main-text-color);
 }
 .team-name {
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
-
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 .team-text {
-  font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -192,7 +191,7 @@ body {
 .footer-link-location:focus,
 .footer-item-address:hover,
 .footer-item-address:focus {
-  background-color: var(--accent-color);
+  color: var(--accent-color);
 }
 /* ---------------------------PORTFOLIO------------------------ */
 /* -------------------------------filter ---------------------*/
